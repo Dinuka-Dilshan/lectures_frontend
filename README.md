@@ -1,3 +1,3 @@
-# https://dinuka-mit-lectures.web.app/0
+# https://dinuka-mit-lectures.web.app
 
 

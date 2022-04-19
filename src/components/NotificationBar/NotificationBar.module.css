@@ -1,0 +1,6 @@
+.wrapper{
+    position: fixed;
+    bottom: 0;
+    z-index: 90 !important;
+    height: 2.5rem;
+}

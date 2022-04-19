@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 import LecInfoCard from "../components/LecInfoCard/LecInfocard";
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 
+
 const Home = () => {
   const [subjects, setSubjects] = useState([]);
   const [isError, setIsError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+
+
 
   useEffect(() => {
     setIsLoading(true);
@@ -24,7 +27,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Container className="mt-3 mt-lg-5">
+    <Container className="mt-3 mt-lg-5" >
       {subjects && !isError && !isLoading && (
         <Row>
           {!isError &&

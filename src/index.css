@@ -2,6 +2,7 @@
 body {
   font-family: "Fredoka", sans-serif;
   background-color: #F8F9FA !important;
+  color: #23272F;
 }
 a {
   text-decoration: none !important;
@@ -9,13 +10,47 @@ a {
 }
 
 .bg-blue {
-  background-color: #005F99 !important;
+  background-color: #F3F4FD !important;
 }
 
 .text-blue {
   color: #005F99 !important;
 }
-
+.text-main{
+  color: #575FB7 !important;
+}
+.text-second{
+  color: #087EA4;
+}
 .box-shadow{
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  background-color: #F6F7F9 !important;
+  border-radius: 0.3rem !important;
+}
+
+.text-yellow{
+  color: #C76A15 !important;
+}
+
+.text-green{
+  color: #44AC99 !important;
+}
+
+.borderc{
+  border-radius: 0.4rem !important;
+  background-color: #F3F4F6!important;
+  color: #087EA4 !important;
+}
+
+.darkNav{
+  background-color: #374151 !important;
+  color: #F6F7F9 !important;
+}
+
+.darkLecInfo{
+  background-color: #343A46 !important;
+  color: #F6F7F9 !important;
+}
+
+.bottom-border{
+  border-bottom: 1px solid #dcdef5;
 }
